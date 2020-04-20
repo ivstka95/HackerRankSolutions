@@ -5,7 +5,7 @@ import kotlin.text.*
 
 // Complete the sockMerchant function below.
 fun sockMerchant(n: Int, ar: Array<Int>): Int {
-    val missingPairColors = mutableListOf<Int>()
+    val missingPairColors = mutableSetOf<Int>()
     ar.forEach {
         if (missingPairColors.contains(it)) {
             missingPairColors.remove(it)
