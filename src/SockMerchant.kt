@@ -5,14 +5,15 @@ import kotlin.text.*
 
 // Complete the sockMerchant function below.
 fun sockMerchant(n: Int, ar: Array<Int>): Int {
-    val colorToCount = IntArray(101)
-    for (color in ar)
-        colorToCount[color]++
-    var result = 0
-    for (countOfColor in colorToCount)
-        if (countOfColor > 0)
-            result += countOfColor / 2
-    return result
+    val missingPairColors = mutableListOf<Int>()
+    ar.forEach {
+        if (missingPairColors.contains(it)) {
+            missingPairColors.remove(it)
+        } else {
+            missingPairColors.add(it)
+        }
+    }
+    return (n - missingPairColors.size) / 2
 }
 
 fun main(args: Array<String>) {
