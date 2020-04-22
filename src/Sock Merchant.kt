@@ -1,7 +1,4 @@
 import java.util.*
-import kotlin.collections.*
-import kotlin.io.*
-import kotlin.text.*
 
 // Complete the sockMerchant function below.
 fun sockMerchant(n: Int, ar: Array<Int>): Int {
