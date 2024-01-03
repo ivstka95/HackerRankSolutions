@@ -16,7 +16,7 @@ fun maximumToys(prices: Array<Int>, k: Int): Int {
     return toysCount
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val nk = scan.nextLine().split(" ")

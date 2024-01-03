@@ -40,7 +40,7 @@ fun isValid(s: String): String {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val s = scan.nextLine()

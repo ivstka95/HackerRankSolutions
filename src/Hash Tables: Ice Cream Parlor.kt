@@ -19,7 +19,7 @@ fun whatFlavors(cost: Array<Int>, money: Int): Unit {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val t = scan.nextLine().trim().toInt()

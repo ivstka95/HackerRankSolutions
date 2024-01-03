@@ -23,7 +23,7 @@ fun luckBalance(k: Int, contests: Array<Array<Int>>): Int {
     return luck
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val nk = scan.nextLine().split(" ")

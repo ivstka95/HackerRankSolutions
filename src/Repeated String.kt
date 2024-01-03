@@ -7,7 +7,7 @@ fun repeatedString(s: String, n: Long) =
                 s.substring(0, (n % s.length).toInt()).count { it == 'a' }
             else 0
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val s = scan.nextLine()

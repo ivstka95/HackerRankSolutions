@@ -18,7 +18,7 @@ fun minimumBribes(q: Array<Int>) {
     println(moves)
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val t = scan.nextLine().trim().toInt()

@@ -19,7 +19,7 @@ fun makeAnagram(a: String, b: String): Int {
     return deletions
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val a = scan.nextLine()

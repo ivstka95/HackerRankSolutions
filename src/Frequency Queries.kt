@@ -35,7 +35,7 @@ fun freqQuery(queries: Array<Array<Int>>): Array<Int> {
     return result.toTypedArray()
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val q = readLine()!!.trim().toInt()
 
     val queries = Array<Array<Int>>(q, { Array<Int>(2, { 0 }) })

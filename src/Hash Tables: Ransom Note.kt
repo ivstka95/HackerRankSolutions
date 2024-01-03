@@ -14,7 +14,7 @@ fun checkMagazine(magazine: Array<String>, note: Array<String>): Unit {
     println("Yes")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     scan.nextLine()

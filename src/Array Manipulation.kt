@@ -1,6 +1,6 @@
 import java.util.*
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
     val n = scan.nextInt()
     val m = scan.nextInt()

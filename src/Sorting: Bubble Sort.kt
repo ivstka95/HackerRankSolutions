@@ -17,7 +17,7 @@ fun countSwaps(a: Array<Int>): Unit {
     println("Last Element: ${a.last()}")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val n = scan.nextLine().trim().toInt()

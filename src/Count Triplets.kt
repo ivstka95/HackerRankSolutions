@@ -15,7 +15,7 @@ fun countTriplets(arr: IntArray, r: Int): Long {
     return count
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val nr = readLine()!!.trimEnd().split(" ")
 
     val n = nr[0].toInt()

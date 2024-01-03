@@ -9,7 +9,7 @@ fun getMinimumCost(k: Int, c: Array<Int>): Int {
     return minimumCost
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val nk = scan.nextLine().split(" ")

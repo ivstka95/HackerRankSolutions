@@ -57,7 +57,7 @@ private fun mergeSortAndCount(arr: IntArray, l: Int, r: Int): Long {
     return count
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val t = scan.nextLine().trim().toInt()

@@ -24,7 +24,7 @@ fun triplets(a: Array<Int>, b: Array<Int>, c: Array<Int>): Long {
     return ans
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val lenaLenbLenc = scan.nextLine().split(" ")

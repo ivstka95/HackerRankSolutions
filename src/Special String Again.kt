@@ -40,7 +40,7 @@ fun substrCount(n: Int, s: String): Long {
 
 private val scanner = Scanner(System.`in`)
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val n = scan.nextLine().trim().toInt()

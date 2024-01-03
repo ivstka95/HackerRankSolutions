@@ -12,7 +12,7 @@ fun maxMin(k: Int, arr: Array<Int>): Int {
 }
 
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val n = scan.nextLine().trim().toInt()

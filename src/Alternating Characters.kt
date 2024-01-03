@@ -9,7 +9,7 @@ fun alternatingCharacters(s: String): Int {
     return count
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val q = scan.nextLine().trim().toInt()

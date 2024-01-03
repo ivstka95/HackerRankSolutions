@@ -3,7 +3,7 @@ import java.util.*
 // Complete the rotLeft function below.
 fun rotLeft(a: Array<Int>, d: Int): Array<Int> = Array(a.size) { a[(it + d) % a.size] }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val nd = scan.nextLine().split(" ")

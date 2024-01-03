@@ -21,7 +21,7 @@ fun commonChild(s1: String, s2: String): Int {
     return mat[s1.length][s1.length]
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val s1 = scan.nextLine()
