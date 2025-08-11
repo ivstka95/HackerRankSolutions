@@ -1,6 +1,7 @@
 import java.util.*
 
 // Complete the countingValleys function below.
+//https://www.hackerrank.com/challenges/three-month-preparation-kit-counting-valleys/problem?h_l=interview&isFullScreen=true&playlist_slugs%5B%5D%5B%5D=preparation-kits&playlist_slugs%5B%5D%5B%5D=three-month-preparation-kit&playlist_slugs%5B%5D%5B%5D=three-month-week-two
 fun countingValleys(n: Int, s: String): Int {
     var currentAltitude = 0
     var valleys = 0
